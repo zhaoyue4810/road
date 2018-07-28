@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CeXianYouHua - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Denny\AppData\Local\Temp\RSPB516.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/CeXianYouHua.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\9_27\program1\Finish\program\DibObject.cpp"
+]
+Creating command line "cl.exe @C:\Users\Denny\AppData\Local\Temp\RSPB516.tmp" 
+Creating temporary file "C:\Users\Denny\AppData\Local\Temp\RSPB517.tmp" with contents
+[
+ImageLoad.lib gdal_i.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CeXianYouHua.pdb" /debug /machine:I386 /out:"Debug/CeXianYouHua.exe" /pdbtype:sept 
+.\Debug\CeXianYouHua.obj
+.\Debug\CeXianYouHuaDoc.obj
+.\Debug\CeXianYouHuaView.obj
+.\Debug\ChildFrm.obj
+.\Debug\DibObject.obj
+.\Debug\GeoDialog.obj
+.\Debug\Group.obj
+.\Debug\Line.obj
+.\Debug\MainFrm.obj
+.\Debug\Show_Contrast.obj
+.\Debug\ShowCoordinary.obj
+.\Debug\StdAfx.obj
+.\Debug\ZoomDlg.obj
+.\Debug\CeXianYouHua.res
+]
+Creating command line "link.exe @C:\Users\Denny\AppData\Local\Temp\RSPB517.tmp"
+<h3>Output Window</h3>
+Compiling...
+DibObject.cpp
+D:\9_27\program1\Finish\program\DibObject.cpp(5981) : warning C4101: 'pnGradMag' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(5979) : warning C4101: 'pnGradX' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(5980) : warning C4101: 'pnGradY' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(6115) : warning C4101: 'widthBytes' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(6826) : warning C4101: 'pnGradMag' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(6821) : warning C4101: 'pUnchSmooth' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(6824) : warning C4101: 'pnGradX' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(6825) : warning C4101: 'pnGradY' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(6889) : warning C4101: 'widthBytes' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7015) : warning C4101: 'pnGradMag' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7010) : warning C4101: 'pUnchSmooth' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7013) : warning C4101: 'pnGradX' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7014) : warning C4101: 'pnGradY' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7102) : warning C4101: 'pnGradMag' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7097) : warning C4101: 'pUnchSmooth' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7100) : warning C4101: 'pnGradX' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7101) : warning C4101: 'pnGradY' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7188) : warning C4101: 'pnGradMag' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7183) : warning C4101: 'pUnchSmooth' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7186) : warning C4101: 'pnGradX' : unreferenced local variable
+D:\9_27\program1\Finish\program\DibObject.cpp(7187) : warning C4101: 'pnGradY' : unreferenced local variable
+Linking...
+   Creating library Debug/CeXianYouHua.lib and object Debug/CeXianYouHua.exp
+
+
+
+<h3>Results</h3>
+CeXianYouHua.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
